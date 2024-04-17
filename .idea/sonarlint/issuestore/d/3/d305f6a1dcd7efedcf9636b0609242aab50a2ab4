@@ -1,3 +1,6 @@
 
-_
-java:S2094"BRemove this empty class, write its code or make it an "interface".(§™ЬЊ8У®ббо1
+}
+java:S1118":Add a private constructor to hide the implicit public one.(§™ЬЊ8Кµтво1J$9bd9aa14-85f7-4f38-b947-ed493cfc8f67
+{
+java:S1144
+"3Remove this unused private "loadProperties" method.(ІН»лю€€€€8Ьµтво1J$5bab6765-f96d-404a-961e-74afecad3c85
