@@ -14,8 +14,9 @@ public class DB {
             try {
             Properties props = loadProperties();
             String url = props.getProperty("dburl");
-            conn = DriverManager.getConnection(url,props);
-            }catch (SQLException e){
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/cousejdbc" , "root","23056623");
+            }catch (SQLException | ClassNotFoundException e){
                 throw new DBException(e.getMessage());
             }
         }return conn;
